@@ -11,22 +11,16 @@
 <body>
     <div class="formulario">
         <h1>Inicio sesion</h1>
-        <form method="post">
-            <div class="username">
-                <input type="text" required>
-                <label>nombre de usuario</label>
+        <div class="container">
+            <div class="columna">
+                <input type="email" name="email" placeholder="ingrese su correo">
+                <input type="password" name="contraseña" placeholder="ingrese contraseña">
             </div>
-            <div class="contraseña">
-                <input type="password" required>
-                <label>contraseña</label>
+            <div class="row">
+                <a href="./pagina-principal.html"><input type="submit" value="ingresar"></a>
+                <a href="./registro.html"><input type="submit" value="registarse"></a>
             </div>
-            <div class="olvidar">¿olvido su contraseña?</div>
-            <input type="submit" value="entrar">
-            <div class="registrarse">
-                <a href="#">registrarse</a>
-
-            </div>
-        </form>
+        </div>
 
     </div>
 
