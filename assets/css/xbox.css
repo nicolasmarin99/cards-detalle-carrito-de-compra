@@ -7,7 +7,7 @@ header {
 }
 
 header:hover {
-    background-color:rgb(187, 168, 24);
+    background-color: rgb(187, 168, 24);
     cursor: pointer;
     transition: .2s ease-in;
 }
@@ -59,7 +59,11 @@ footer {
     margin-top: 50px;
 }
 
+.card {
+    margin-top: 30px;
+    text-align: center;
 
+}
 
 
 @media (max-width: 575px) {
