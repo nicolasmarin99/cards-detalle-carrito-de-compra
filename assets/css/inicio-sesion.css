@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/juegos\ -playstation/inicio-sesio-wallpaper.jpg);
+}
+
+.formulario {
+    background-image: url(../img/juegos\ -playstation/videogameswallpaper.jpg);
+}
+
+.formulario {
+    background-color: white;
+    max-width: 30%;
+    margin: 200px auto;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+
+.columna {
+    margin-left: 105px;
+}
+
+.columna input {
+    display: block;
+    margin-top: 30px;
+}
+
+.columna p {
+    margin-right: 90px;
+}
+
+.row input {
+    margin-top: 30px;
+    margin-left: 15px;
+    border-radius: 7px;
+}
