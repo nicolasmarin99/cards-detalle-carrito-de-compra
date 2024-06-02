@@ -29,24 +29,6 @@ header:hover {
     color: white;
 }
 
-footer {
-    color: white;
-    margin-top: 50px;
-}
-
-@media (max-width: 575px) {
-    .menu-superior ul {
-        text-align: center;
-        display: block;
-    }
-}
-
-@media (max-width: 575px) {
-    aside {
-        visibility: hidden;
-    }
-}
-
 .icon {
     margin-left: 10px;
 }
@@ -66,42 +48,23 @@ label {
     color: white;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: white;
-}
-
-main aside img {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-}
-
-main aside {
-    margin-top: 50px;
-    margin-right: 50px;
-    text-align: center;
-
-}
-
 .slide {
-    max-height: 100%;
-    max-width: 100%;
-    margin-left: 100px;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    margin-top: 50px;
 }
 
 
 
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.row p {
-    margin-top: 30px;
-    text-align: center;
+@media (max-width: 575px) {
+    .menu-superior ul {
+        text-align: center;
+        display: block;
+    }
 }
