@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="./assets/css/inicio-sesion.css">
 </head>
 
@@ -13,21 +13,21 @@
         <h1>REGISTRO</h1>
         <div class="container">
             <div class="columna">
-                <input type="text" name="nombre" placeholder="ingrese su nombre">
-                <input type="email" name="email" placeholder="ingrese su email">
-                <input type="email" name="email" placeholder="repita email">
-                <input type="password" name="contraseña" placeholder="ingrese contraseña">
-                <input type="password" name="contraseña" placeholder="repita contraseña">
-                <p>ingrese su fecha de nacimiento</p>
-                <input type="date" name="nacimiento" id="">
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                <input type="email" id="email" name="email" placeholder="Ingrese su email">
+                <input type="email" id="reEmail" name="reEmail" placeholder="Repita email">
+                <input type="password" id="password" name="password" placeholder="Ingrese contraseña">
+                <input type="password" id="rePassword" name="rePassword" placeholder="Repita contraseña">
+                <p>Ingrese su fecha de nacimiento</p>
+                <input type="date" id="nacimiento" name="nacimiento">
             </div>
             <div class="row">
-                <a href="./pagina-principal.html"><input type="submit" value="registarse"></a>
+                <button id="registrarse">Registrarse</button>
             </div>
         </div>
-
     </div>
 
+    <script type="module" src="./assets/js/registro.js"></script>
 </body>
 
 </html>
