@@ -1,4 +1,3 @@
-// index2.js
 import { enviarDatos } from "./operaciones.js";
 
 // Función para agregar un juego al carrito
@@ -16,7 +15,7 @@ function agregarAlCarrito(nombre, precio, imagen, descripcion, cantidad) {
 // Obtener los juegos y crear las tarjetas
 const obtenerJuegos = async () => {
     try {
-        const response = await fetch("https://listo-para-subir-api-videojuegos.onrender.com/juegos");
+        const response = await fetch("https://api-exclusivos-xbox.onrender.com");
         const data = await response.json();
         return data.juegos; // Devolver solo el array de juegos
     } catch (error) {
@@ -71,7 +70,6 @@ const crearTarjetas = (juegosArray) => {
         btnComprar.classList.add("btn");
         btnComprar.classList.add("btn-danger");
         btnComprar.textContent = "añadir al carrito";
-        btnComprar.style.marginTop = "2rem"
         btnComprar.addEventListener("click", () => {
             agregarAlCarrito(name, precio, imagen);
         });
